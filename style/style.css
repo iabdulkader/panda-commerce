@@ -68,15 +68,18 @@ h2{
     width: 40%;
 }
 .watch-cat{
-    background-color: #FF9C35;
+    background: rgb(131,58,180);
+    background: linear-gradient(232deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 55%, rgba(254,173,60,1) 100%);
     border-radius: 10px;
 }
 .bag-cat{
-    background-color: #FF589B;
+    background-color: #70b2d9;
+    background-image: linear-gradient(95deg, #5d8fac 0%, #39e5b6 74%);
     border-radius: 10px;
 }
 .shoe-cat{
-    background-color: #4289FF;
+    background: rgb(34,30,113);
+    background: linear-gradient(90deg, rgba(34,30,113,1) 1%, rgba(39,39,171,1) 45%, rgba(26,142,166,1) 100%);
     border-radius: 10px;
 }
 .see-all{
