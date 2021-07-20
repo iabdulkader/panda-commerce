@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Panda Commerce</title>
+</head>
+<body>
+    <div class="nav-bg">
+      <section class="container px-0">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light pe-o">
+              <div class="container-fluid px-md-0">
+                <a class="navbar-brand me-0 ps-md-0 pe-0" href="#"><img src="images/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse pt-md-0 pt-2" id="navbarSupportedContent">
+                  <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
+                      <form class="d-flex mx-auto">
+                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        </form>
+                      <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#shoe">Products</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link pe-md-0" href="#">About Us</a>
+                  </li>
+                  </ul> 
+                </div>
+              </div>
+            </nav>
+      </section>
+    </div> 
+
+<!-- Carousel Section -->
+
+
+   <section class="container mt-3 carousel-bg">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bd-pause="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner pb-3">
+        <div class="carousel-item active">
+          <div class="row align-items-center">
+            <div class="col-md-6 col-12 p-md-4 p-2 carousel-img">
+              <img src="images/banner-images/tv.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-6 col-12 carousel-text">
+              <div>
+                <h2>MI LED TV 4A Pro 32</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero error ipsa quo itaque. Lorem ipsum dolor sit amet.</p>
+                <br>
+                <h2 id="purple-color">$1299</h2>
+              </div>
+                <button class="buy-button">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row align-items-center">
+            <div class="col-md-6 col-12 p-md-4 p-2 carousel-img">
+              <img src="images/banner-images/xbox.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-6 col-12 carousel-text">
+              <div>
+                <h2>X-Box X Pro</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero error ipsa quo itaque. Lorem ipsum dolor sit amet.</p>
+                <br>
+                <h2 id="purple-color">$899</h2>
+              </div>
+                <button class="buy-button">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row align-items-center">
+            <div class="col-md-6 col-12 p-md-4 p-2 carousel-img">
+              <img src="images/banner-images/headphone.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-6 col-12 carousel-text">
+              <div>
+                <h2>Bose Stereo Headphone</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero error ipsa quo itaque. Lorem ipsum dolor sit amet.</p>
+                <br>
+                <h2 id="purple-color">$349</h2>
+              </div>              
+                <button class="buy-button">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </section>
+
+<!-- categories Section -->
+
+   <section class="container mt-3 px-md-0 category">
+     <h2 class="px-md-0 mx-md-0 mb-md-4 mb-2">Categories</h2>
+     <div class="row m-1 px-md-0 mx-md-0">
+       <div class="col-12 col-md-4 px-0 hover-scale">
+          <div class="watch-cat mb-2 py-2 px-2 d-flex align-items-center justify-content-between me-md-2">
+            <h1>Watch</h1>
+            <img src="images/categories/watch.png" class="img-fluid" alt="">
+          </div>
+      </div>
+      <div class="col-12 col-md-4 px-0 hover-scale">
+        <div class="shoe-cat mb-2 py-2 px-2 d-flex align-items-center justify-content-between mx-md-1">
+          <h1>Shoe</h1>
+          <img src="images/categories/shoes.png" class="img-fluid" alt="">
+        </div>
+      </div>
+      <div class="col-12 col-md-4 px-0 hover-scale">
+        <div class="bag-cat py-2 mb-2 px-2 d-flex align-items-center justify-content-between ms-md-2">
+          <h1>Bag</h1>
+          <img src="images/categories/bag.png" class="img-fluid" alt="">
+        </div>
+      </div>
+     </div>
+   </section>
+
+<!-- watch section -->
+
+   <section class="container my-3 px-md-0" id="shoe">
+     <div class="px-md-0 mx-md-0 mb-md-4 mb-2 d-flex justify-content-between align-items-center">
+      <h2>Shoes</h2>
+      <a class="see-all" href="#"><h5 id="purple-color">See All</h3></a>
+     </div>
+
+     <div class="row m-1 px-md-0 mx-md-0">
+      <div class="col-12 col-md-4 px-0 hover-scale">
+         <div class="shoe-bg mb-2 py-2 px-2 me-md-2">
+           <div class="py-5 d-flex align-items-center justify-content-center">
+            <img src="images/shoes/shoe-1.png" class="img-fluid" alt="">
+           </div>
+           <div class="text-center pt-3 pb-4">
+            <h5>Rebook Dart Men Shoes</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, totam.</p><br>
+            <h5 id="purple-color">$699</h5>
+            <button type="button" class="btn btn-dark">Buy Now</button>
+           </div>
+         </div>       
+     </div>
+
+     <div class="col-12 col-md-4 px-0 hover-scale">
+      <div class="shoe-bg mb-2 py-2 px-2 me-md-2">
+        <div class="py-5 d-flex align-items-center justify-content-center">
+         <img src="images/shoes/shoe-2.png" class="img-fluid" alt="">
+        </div>
+        <div class="text-center pt-3 pb-4">
+         <h5>Nike Comforter Plus</h5>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, totam.</p><br>
+         <h5 id="purple-color">$419</h5>
+         <button type="button" class="btn btn-dark">Buy Now</button>
+        </div>
+      </div>       
+  </div>
+
+  <div class="col-12 col-md-4 px-0 hover-scale">
+    <div class="shoe-bg mb-2 py-2 px-2 me-md-2">
+      <div class="py-5 d-flex align-items-center justify-content-center">
+       <img src="images/shoes/shoe-3.png" class="img-fluid" alt="">
+      </div>
+      <div class="text-center pt-3 pb-4">
+       <h5>Nike Red Bull</h5>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, totam.</p><br>
+       <h5 id="purple-color">$349</h5>
+       <button type="button" class="btn btn-dark">Buy Now</button>
+      </div>
+    </div>       
+  </div>
+  
+  </div>
+   </section>
+
+
+<!-- backpack dection -->
+
+
+   <section class="container my-3 px-md-0">
+    <div class="px-md-0 mx-md-0 mb-md-4 mb-2 d-flex justify-content-between align-items-center">
+     <h2>Backpacks</h2>
+     <a class="see-all" href="#"><h5 id="purple-color">See All</h3></a>
+    </div>
+
+    <div class="row m-1 px-md-0 mx-md-0">
+     <div class="col-12 col-md-4 px-0 hover-scale">
+        <div class="shoe-bg mb-2 py-2 px-2 me-md-2">
+          <div class="py-5 d-flex align-items-center justify-content-center">
+           <img src="images/bags/bag-1.png" class="img-fluid" alt="">
+          </div>
+          <div class="text-center pt-3 pb-4">
+           <h5>Ison Premium Backpack</h5>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, totam.</p><br>
+           <h5 id="purple-color">$899</h5>
+           <button type="button" class="btn btn-dark">Buy Now</button>
+          </div>
+        </div>       
+    </div>
+
+    <div class="col-12 col-md-4 px-0 hover-scale">
+     <div class="shoe-bg mb-2 py-2 px-2 me-md-2">
+       <div class="py-5 d-flex align-items-center justify-content-center">
+        <img src="images/bags/bag-2.png" class="img-fluid" alt="">
+       </div>
+       <div class="text-center pt-3 pb-4">
+        <h5>BioWang Backpack</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, totam.</p><br>
+        <h5 id="purple-color">$949</h5>
+        <button type="button" class="btn btn-dark">Buy Now</button>
+       </div>
+     </div>       
+ </div>
+
+ <div class="col-12 col-md-4 px-0 hover-scale">
+   <div class="shoe-bg mb-2 py-2 px-2 me-md-2">
+     <div class="py-5 d-flex align-items-center justify-content-center">
+      <img src="images/bags/bag-3.png" class="img-fluid" alt="">
+     </div>
+     <div class="text-center pt-3 pb-4">
+      <h5>Dxyizu W554 Smart</h5>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, totam.</p><br>
+      <h5 id="purple-color">$1149</h5>
+      <button type="button" class="btn btn-dark">Buy Now</button>
+     </div>
+   </div>       
+ </div>
+ 
+ </div>
+  </section>
+
+  <!-- NewsLetter Section -->
+
+  <section class="container my-3 px-md-0 carousel-bg newsletter text-center py-5" id="contact">
+    <h3>Lets Stay In Touch</h3>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+    <div class="align-items-center">
+      <input class="email-box" type="email" name="email" id="" placeholder="Your Mail">
+      <button type="button" class="btn btn-success">Subscribe</button>
+    </div>
+  </section>
+
+
+
+
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

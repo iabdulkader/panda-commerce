@@ -1,0 +1,117 @@
+body{
+    color: #F1f3ff;
+    margin: 0;
+    padding: 0;
+}
+.nav-bg{
+    padding: 0;
+    margin: 0;
+    background-color: #f8f9fa;
+}
+h2{
+    color: black;
+}
+.form-control{
+    border-radius: 40px;
+    height: 2rem;
+}
+.carousel-bg{
+    background-color: #FEEAE9;
+    border-radius: 10px;
+}
+.carousel-bg img{
+    width: 80%;
+}
+.carousel-text h2{
+    color: black;
+}
+.carousel-text p{
+    color: rgb(75, 74, 74);
+    font-size: .8rem;
+}
+#purple-color{
+    color: #FF136F;
+}
+.buy-button{
+    background-color: #FF589B;
+    color: #ffffff;
+    font-size: .8rem;
+    border-radius: 8px;
+    padding: 5px 15px;
+    border: none;
+}
+.navbar-brand img{
+    width: 50%;
+}
+.carousel-indicators [data-bs-target] {
+    background-color: #FF136F;
+    height: 6px;
+}
+@media (max-width: 767px) {
+    .carousel-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .carousel-indicators [data-bs-target] {
+        display: none;
+    }
+    .carousel-text{
+        text-align: center;
+    }
+    
+}
+.category h1{
+    margin-bottom: 0;
+}
+.category img{
+    width: 40%;
+}
+.watch-cat{
+    background-color: #FF9C35;
+    border-radius: 10px;
+}
+.bag-cat{
+    background-color: #FF589B;
+    border-radius: 10px;
+}
+.shoe-cat{
+    background-color: #4289FF;
+    border-radius: 10px;
+}
+.see-all{
+    text-decoration: none;
+}
+.hover-scale{
+    transition: all ease-in-out 400ms;
+}
+.hover-scale:hover{
+    transform: scale(1.05);
+}
+.shoe-bg{
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.shoe-bg h5{
+    color: black;
+}
+.shoe-bg p{
+    color: rgb(75, 74, 74);
+    font-size: .8rem;
+}
+.shoe-bg img{
+    width: 60%;
+}
+.newsletter h3{
+    color: black;
+}
+.newsletter p{
+    color: rgb(75, 74, 74);
+    font-size: .8rem;
+}
+.email-box{
+    border-radius: 10px;
+    border: none;
+    padding: 10px 30px;
+}
