@@ -64,9 +64,11 @@ h2{
 }
 .category h1{
     margin-bottom: 0;
+    transform: translateZ(50px);
 }
 .category img{
     width: 40%;
+    transform: translateZ(50px);
 }
 .watch-cat{
     background: rgb(131,58,180);
@@ -118,4 +120,9 @@ h2{
     border-radius: 10px;
     border: none;
     padding: 10px 30px;
+}
+.cat-tilt{
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    transform: translateZ(50px);
 }
